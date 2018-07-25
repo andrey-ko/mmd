@@ -1,9 +1,10 @@
-package org.anreyko.mmd.consumer
+@file: JvmName("ResultsPrinterApp")
+package org.andreyko.mmd.apps
 
 import com.fasterxml.jackson.databind.JsonNode
 import org.andreyko.mmd.infra.deployConsumer
-import org.anreyko.mmd.core.Consumer
-import org.anreyko.mmd.core.mapper
+import org.andreyko.mmd.core.Consumer
+import org.andreyko.mmd.core.mapper
 
 class PrintConsumer : Consumer {
     override fun processData(msg: JsonNode) {

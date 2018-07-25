@@ -1,8 +1,8 @@
 package org.andreyko.mmd.infra
 
-import org.anreyko.mmd.core.Consumer
-import org.anreyko.mmd.core.Processor
-import org.anreyko.mmd.core.Producer
+import org.andreyko.mmd.core.Consumer
+import org.andreyko.mmd.core.Processor
+import org.andreyko.mmd.core.Producer
 
 fun deployProducer(address: String, producer: Producer) {
     sync {

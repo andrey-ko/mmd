@@ -1,4 +1,4 @@
-package org.anreyko.mmd.core
+package org.andreyko.mmd.core
 
 import com.fasterxml.jackson.databind.JsonNode
 import com.fasterxml.jackson.databind.node.ArrayNode

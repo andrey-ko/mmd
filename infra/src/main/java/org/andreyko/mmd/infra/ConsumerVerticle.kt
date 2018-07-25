@@ -1,14 +1,13 @@
 package org.andreyko.mmd.infra
 
-import com.fasterxml.jackson.databind.ObjectMapper
 import io.netty.buffer.ByteBufInputStream
 import io.vertx.core.AbstractVerticle
 import io.vertx.core.Handler
 import io.vertx.core.buffer.Buffer
 import io.vertx.core.eventbus.Message
 import io.vertx.core.eventbus.MessageConsumer
-import org.anreyko.mmd.core.Consumer
-import org.anreyko.mmd.core.mapper
+import org.andreyko.mmd.core.Consumer
+import org.andreyko.mmd.core.mapper
 import org.slf4j.LoggerFactory
 
 

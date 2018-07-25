@@ -1,7 +1,8 @@
-package org.anreyko.mmd.consumer
+@file: JvmName("DataProcessorApp")
+package org.andreyko.mmd.apps
 
+import org.andreyko.mmd.core.*
 import org.andreyko.mmd.infra.deployProcessor
-import org.anreyko.mmd.core.*
 
 
 fun main(vararg args: String) {

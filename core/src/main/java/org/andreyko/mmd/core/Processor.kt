@@ -1,4 +1,4 @@
-package org.anreyko.mmd.core
+package org.andreyko.mmd.core
 
 interface Processor : Consumer, Producer {
 }

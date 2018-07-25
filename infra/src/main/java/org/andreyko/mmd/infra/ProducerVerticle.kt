@@ -2,8 +2,8 @@ package org.andreyko.mmd.infra
 
 import io.vertx.core.AbstractVerticle
 import io.vertx.core.buffer.Buffer
-import org.anreyko.mmd.core.Producer
-import org.anreyko.mmd.core.mapper
+import org.andreyko.mmd.core.Producer
+import org.andreyko.mmd.core.mapper
 import org.slf4j.LoggerFactory
 
 

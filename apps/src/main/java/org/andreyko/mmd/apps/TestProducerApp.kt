@@ -1,10 +1,10 @@
-package org.anreyko.mmd.consumer
+@file: JvmName("TestProducerApp")
+package org.andreyko.mmd.apps
 
 import com.fasterxml.jackson.databind.JsonNode
 import org.andreyko.mmd.infra.deployProducer
-import org.anreyko.mmd.core.Producer
-import org.anreyko.mmd.core.jsonNode
-import org.anreyko.mmd.core.mapper
+import org.andreyko.mmd.core.Producer
+import org.andreyko.mmd.core.mapper
 
 
 class TestProducer : Producer {
